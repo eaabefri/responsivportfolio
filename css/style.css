@@ -1,0 +1,737 @@
+* {
+    box-sizing: border-box;
+}
+
+
+/* NYT PROJEKT LINJE */
+
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+    margin: 0;
+    
+}
+
+
+
+/* MENU BAR */
+
+    
+
+header {
+    background-color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+    
+    box-shadow: 0px 2px;
+    z-index: 1;
+    padding: 1%;
+    
+}
+    
+
+.navbar a {
+    float: right;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    padding-left: 30px;
+    text-decoration: none;
+    font-size: 12px;
+    font-family: 'Source Sans Pro', sans-serif;
+    letter-spacing: 4px;  
+}
+
+
+/*LOGO I HEADER*/
+
+.logoheader {
+
+    position: absolute;
+    left: 0.4em;
+    top: 0.01em;
+    
+
+}
+
+.logoheader2  {
+      display: none;
+}
+
+
+
+/*LOGO ØVERST I MIDTEN*/
+
+.logo {
+    display: block;
+    position: absolute;
+    bottom: 40%;
+    right: 6%;
+}
+
+.aboutme h2 {
+    position: absolute;
+    border: solid 4px black;
+    left: 45%;
+    width: 10%;
+    height: 10%;
+    padding-top: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+
+
+h3 {
+    font-family: 'Source Sans Pro', sans-serif;
+    letter-spacing: 15px;
+    font-size: 15px;
+ 
+}
+
+.kompetencer section {
+    display: inline-block;
+    float: left;
+    width: 33%;
+    text-align: center;
+    position: relative;
+    bottom: 180px;
+
+}
+
+.line {
+    width: 90%;
+    border-bottom: 1px solid black;
+    padding: 0;
+    padding-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#abouttext {
+    position: relative;
+    float: right;
+}
+
+
+.aboutme section {
+    position: relative;
+    width: 50%;
+    float: right;
+    font-size: 17px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.tekst1ommig {
+    width: 40%;
+    padding-left: 20px;
+    padding-top: 15px;
+    line-height: 200%;
+    text-align: justify;
+}
+
+.tekst2ommig {
+    width: 70%;
+    padding-left: 40px;
+    line-height: 200%;
+    text-align: justify;
+}
+
+.fotoafmig {
+    float: right;
+    margin-bottom: 20px;
+}
+
+.ommigtekst {
+    padding-right: 20px;
+    word-spacing: 2px;
+}
+
+.benjamin-skills {
+    position: relative;
+    float: left;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+.benjamin-skills p {
+    margin-bottom: 100px;
+}
+
+
+
+.skill-percent {
+    float: right;
+    font-size: 20px;
+}
+
+li.skill-bar {
+    background-color: #7BC673;
+    color: #FFF;
+    font: bold 12px/23px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+    margin-bottom: 40px;
+    padding: 15px 20px;
+    font-size: 20px;
+    letter-spacing: 5px;
+}
+
+/* KONTAKT */
+
+.kontakt {
+    background-color: black;
+    height: 480px;
+    opacity: 0.9;
+    font-family: 'Source Sans Pro', sans-serif;
+    width: 100%;
+    display: inline-block;
+
+}
+
+.kontakt h2 {
+    position: absolute;
+    letter-spacing: 4px;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    border: solid 4px white;
+    width: 10%;
+    height: 10%;
+    left: 45%;
+    padding-top: 20px;
+
+}
+
+.kontakt section {
+   
+    float: left;
+    display: inline-block;
+    width: 50%;
+    padding-top: 120px;
+    margin: 0;
+}
+
+/* KONTAKTFORMULAR */
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid white;
+    border-radius: 0px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+}
+
+#subject {
+    height: 100px;
+}
+
+.send {
+    background: linear-gradient(to right, #ff9933 29%, #ff0066 100%);
+    color: white;
+    width: 60px;
+    text-align: center;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+}
+
+.send:hover {
+    background-color: #C1C2BD;
+    color: black;
+    font-weight: 800;
+}
+
+.kontaktformular {
+    color: white;
+    padding-right: 100px;
+    padding-left: 250px;
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+.kontakt {
+    color: white;
+    text-transform: uppercase;
+
+}
+
+.kontakt h3 {
+    font-size: 10px;
+    letter-spacing: 5px;
+    padding-left: 25%;
+    font-weight: 100;
+}
+
+
+/* KONTAKTOPLYSNINGER */
+
+.kontaktoplysninger {
+    font-size: 15px;
+    letter-spacing: 3px;
+    line-height: 2.5;
+    padding-left: 25%;
+    font-weight: 900;
+}
+
+.kontaktoplysninger.email {
+    font-size: 15px;
+    font-weight: 900;
+}
+
+.socialmedia {
+    padding-left: 10px;
+}
+
+.socialmedia:hover {
+    opacity: 0.3;
+}
+
+.socialmedia.facebook {
+    margin-left: 23%;
+    padding-top: 30px;
+}
+
+
+.portfolio {
+    width: 100%;
+    height: 500px;
+}
+
+
+
+/* CASES */
+
+.cases {
+    background-color: white;
+    opacity: 0.9;
+    height: 1200px;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    color: black;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 12px;
+    padding-top: 250px;
+}
+
+.cases h2 {
+    position: absolute;
+    border: solid 4px black;
+    left: 45%;
+    width: 10%;
+    height: 10%;
+    padding-top: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-family: 'Source Sans Pro', sans-serif;
+    top: 70px;
+
+}
+
+
+
+.cases h3 {
+    font-size: 20px;
+    font-weight: 400;
+    color: black;
+    
+}
+
+.cases section {
+    float: left;
+    display: inline-block;
+    width: 50%;
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    height: 350px;
+}
+
+
+
+/* HOVER EFFECT: SEPIA */
+
+.cases img {
+    -webkit-filter: sepia(100%);
+    filter: sepia(100%);
+
+
+    padding-top: 10px;
+    
+}
+
+
+.cases img:hover {
+
+    -webkit-filter: sepia(0);
+    filter: sepia(0);
+}
+
+
+.case1 {
+    height: 800px;
+}
+
+.case2 {
+    height: 800px;
+}
+
+.case3 {
+    height: 800px;
+}
+
+.selvstudie {
+    height: 800px;
+}
+
+
+
+* {
+    box-sizing: border-box;
+}
+
+
+/* Create four equal columns that floats next to each other */
+
+.column {
+    float: left;
+    width: 33%;
+    padding: 10px;
+    
+}
+
+.column img {
+    margin-top: 12px;
+   
+}
+
+.row {
+    padding-top: 80px;
+}
+
+/* Clear floats after the columns */
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.tekstcase {
+    padding: 10px;
+    background-color: #F2F2F2;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: justify;
+    font-size: 13px;
+    margin: 0;
+
+}
+
+
+.tekstcase h2 {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 15px;
+    color: orange;
+}
+
+#myNav {
+    display: none;
+}
+
+
+
+/* BURGERMENU - med udgangspunkt i: https://codepen.io/erikterwan/pen/grOZxx */
+
+#burgermenu {
+    display: none;
+    position: fixed;
+    top: 8px;
+    right: 10px;
+    z-index: 1;
+    -webkit-user-select: none;
+    user-select: none;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: uppercase;
+}
+
+#burgermenu a {
+    text-decoration: none;
+    color: #232323;
+    transition: color 0.3s ease;
+}
+
+#burgermenu a:hover {
+    color: gray;
+}
+
+#burgermenu input {
+    display: block;
+    width: 40px;
+    height: 32px;
+    position: absolute;
+    top: -7px;
+    left: -5px;
+    cursor: pointer;
+    opacity: 0;
+    /* hide this */
+    z-index: 2;
+    /* and place it over the hamburger */
+    -webkit-touch-callout: none;
+}
+
+#burgermenu span {
+    display: block;
+    width: 25px;
+    height: 2px;
+    margin-bottom: 5px;
+    position: ab;
+    background: black;
+    border-radius: 3px;
+    z-index: 1;
+    transform-origin: 4px 0px;
+    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0),
+    background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0),
+    opacity 0.55s ease;
+}
+
+#burgermenu span:first-child {
+    transform-origin: 0% 0%;
+}
+
+#burgermenu span:nth-last-child(2) {
+    transform-origin: 0% 100%;
+}
+
+#burgermenu input:checked ~ span {
+    opacity: 1;
+    transform: rotate(45deg) translate(-2px, -1px);
+    background: #232323;
+}
+
+#burgermenu input:checked ~ span:nth-last-child(3) {
+    opacity: 0;
+    transform: rotate(0deg) scale(0.2, 0.2);
+}
+
+#burgermenu input:checked ~ span:nth-last-child(2) {
+    opacity: 1;
+    transform: rotate(-45deg) translate(0, -1px);
+}
+
+#menu {
+    position: absolute;
+    width: 400px;
+    height: 742px;
+    margin: -100px 0 0 0;
+    padding: 30px;
+    padding-top: 120px;
+
+    /* HER ER PROBLEMET */
+    right: -35px;
+    /* HER ER PROBLEMET */
+    background-color: rgba(255,255,255, 0.9);
+    list-style-type: none;
+    -webkit-font-smoothing: antialiased;
+    /* to stop flickering of text in safari */
+    transform-origin: 0% 0%;
+    transform: translate(100%, 0);
+    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0);
+}
+
+#menu li {
+    padding: 15px 0;
+    font-size: 25px;
+    text-align: center;
+    
+    
+}
+
+#burgermenu input:checked ~ ul {
+    transform: scale(1.0, 1.0);
+    opacity: 0.95;
+}
+
+/* BURGERMENU SLUT */
+
+
+/* .p layout - makes a two column-layout instead of four columns */
+
+@media (max-width: 800px) {
+    
+}
+
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+/*MOBILE*/
+@media (max-width: 600px) {
+    
+    .kompetencer {
+        display: none;
+    }
+    
+    .tekst2ommig {
+        font-size: 10px;
+
+    }
+    
+    .tekst1ommig {
+        font-size: 10px;
+    }
+    
+    .aboutme section {
+        width: 100%;
+    }
+    
+    .logo {
+        display: none;
+    } 
+    
+.skill-percent {
+    float: right;
+    font-size: 10px;
+}
+
+li.skill-bar {
+    background-color: #7BC673;
+    color: #FFF;
+    margin-bottom: 40px;
+    padding: 7px 10px;
+    font-size: 10px;
+    letter-spacing: 5px;
+}
+    
+    .aboutme h2 {
+    position: absolute;
+    border: solid 4px black; 
+        top: 30%;
+        
+}
+   
+    
+    .logoheader2  {
+        display: block;
+        position: absolute;
+        height: 25px;
+        width: 25px;
+        left: 2%;
+        float: left;
+        top: 15%;     
+    }
+        
+   
+    .send {
+        display: none;
+    }
+        
+    
+    .navbar a {
+        display: none;
+    }
+    
+ 
+    .kontakt{
+        margin-top: 90%;
+        text-align: left;
+     
+    }
+    
+    
+    .kontakt section {
+   float: inherit;
+    width: 100%;
+ 
+}
+    
+    .kontaktoplysninger{   
+        padding-left: 11%;
+    }
+    
+    .kontaktformular {
+   display: none;
+  
+}
+
+    .kontakt h3 {
+       padding-left: 11%;
+    }
+
+    .kontakt h2 { 
+       display: none;
+    }
+    
+    .aboutme h2 {
+       display: none;
+    }
+    
+
+
+    header {
+        height: 5%;
+    }
+    
+    #burgermenu {
+    display: block;
+}
+    
+    
+    .logoheaderBIG{
+        padding-top: 30%;
+    }
+    
+    
+    .fotoafmig {
+        display: none;
+    }
+    
+    .aboutme section{
+        width: 100%;
+    }
+      
+    .tekst1ommig {
+        width: 100%;
+        padding-left: 40px;
+        padding-right: 40px;
+      
+    }
+    
+    .tekst2ommig {
+   width: 100%;
+        padding-left: 40px;
+        padding-right: 40px;
+        
+}
+    
+    .socialmedia {
+  
+}
+    
+    .cases section { 
+    width: 100%;
+    
+    }
+    
+    .cases h2 {
+        border: 0px;
+        padding-left: -40px;
+    }
+    
